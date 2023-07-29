@@ -28,19 +28,41 @@ import { SectionWrapper } from '../hoc';
 
 const Skills = () => {
   return (
-    <div className="-mt-[6rem] justify-center">
+    <div className="-mt-[2rem] justify-center">
       <motion.div variants={textVariant()}>
         {/* <p className={styles.sectionSubText}>Introduction</p> */}
-        <h2 className={styles.sectionHeadText}>About Me</h2>
+        <h2 className={styles.sectionHeadText}>Skills</h2>
       </motion.div>
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn('', '', 0.1, 1)}
+          className=" text-taupe text-[24px] max-w-6xl leading-[30px]">
+          I am an enthusiastic learner. Here are a couple of languages and tools I have worked with!
+        </motion.p>
+      </div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[33px] max-w-6xl leading-[45px]">
-          Born in Vancouver, BC. Grew up in Hong Kong and moved back to Canada to pursue my dream in Software Development. <br></br>
-          Currently pursuing a Major in Computer Science alongside a Minor in Commerce at The University of British Columbia.  <br></br>
-          In my spare time, I love attending hackathons, meeting other amazing developers, and at the gym, keeping myself fit enough to run away from any bug.  <br></br>
+        className="mt-10 text-taupe text-[40px] max-w-8xl leading-[20px] transition-all">
+                <div class="grid grid-cols-3 gap-3">
+                    <div>JavaScript</div>
+                    <div>TypeScript</div>
+                    <div>Java</div>
+                    <div>Python</div>
+                    <div>C</div>
+                    <div>C++</div>
+                    <div>Node.js</div>
+                    <div>CSS</div>
+                    <div>TailwindCSS</div>
+                    <div>HTML</div>
+                    <div>React.js</div>
+                    <div>MySQL</div>
+                    <div>Oracle</div>
+
+                </div>
+
            <br></br>
+           
       </motion.p>
       
      

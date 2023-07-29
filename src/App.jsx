@@ -3,12 +3,12 @@ import {
   About,
   Contact,
   Experience,
-  Skills,
   Hero,
   Navbar,
   Tech,
   Projects,
 } from './components';
+import Skills from './components/Skills';
 
 const App = () => {
   return (
@@ -25,12 +25,8 @@ const App = () => {
         
         <Projects />
 
-      
-        <Skills />
-       
-
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
-          <Tech />
+        <div className="bg-about bg-cover bg-center bg-no-repeat pb-10">
+          <Skills />
         </div>
 
 
