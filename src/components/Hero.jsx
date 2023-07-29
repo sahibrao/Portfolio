@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -45,11 +45,42 @@ const Hero = () => {
                 Sahib Rao
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            <p className={`${styles.heroSubText} mt-4 text-eerieBlack`}>
               Full-Stack Software Developer <br className="sm:block hidden" />
               
             </p>
           </div>
+
+          <button 
+            className="live-demo absolute inset-x-20 bottom-60 flex justify-center  
+             sm:text-[30px] text-[45px] text-timberWolf 
+            font-bold font-beckman items-center py-5
+            whitespace-nowrap sm:w-[240px] sm:h-[70px] 
+            w-[250px] h-[120px]  bg-jetLight 
+            hover:bg-battleGray hover:text-eerieBlack 
+            transition duration-[0.2s] ease-in-out "
+            onClick={() => setActive('Contact')}
+              onMouseOver={() => {
+                document
+                  .querySelector('.download-btn')
+                  .setAttribute('src', downloadHover);
+              }}
+              onMouseOut={() => {
+                document
+                  .querySelector('.download-btn')
+                  .setAttribute('src', download);
+              }}>
+          <a href={`#${'contact'}`}>{'Contact Me'}</a>
+          
+           {/* <img
+                src={download}
+                alt="download"
+                className="download-btn sm:w-[26px] sm:h-[26px] 
+                w-[23px] h-[23px] object-contain"
+              /> */}
+      </button>
+
+          
           <div
             className="w-screen flex flex-col items-start 
             justify-center sm:-ml-[3rem] xxs:mt-4"></div>
@@ -63,7 +94,7 @@ const Hero = () => {
           <a href="#about">
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
-            border-french border-dim flex
+            border-french flex
             justify-center items-start p-2">
               <motion.div
                 animate={{
@@ -80,16 +111,7 @@ const Hero = () => {
           </a>
         </div> */}
 
-        {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-        <div>
-          {/* <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
-            alt="shaquille"
-          /> */}
-        </div>
+        
       </section>
     </>
   );
