@@ -1,9 +1,9 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { styles } from '../styles';
-import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
-import { SectionWrapper } from '../hoc';
+import React from "react";
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { services } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 // const ServiceCard = ({ index, title, icon }) => {
 //   return (
@@ -35,41 +35,41 @@ const Skills = () => {
       </motion.div>
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
-          className=" text-taupe text-[24px] max-w-6xl leading-[30px]">
-          I am an enthusiastic learner. Here are a couple of languages and tools I have worked with!
+          variants={fadeIn("", "", 0.1, 1)}
+          className=" text-taupe text-[24px] max-w-6xl leading-[30px]"
+        >
+          I am an enthusiastic learner. Here are a couple of languages and tools
+          I have worked with!
         </motion.p>
       </div>
 
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-10 text-taupe text-[40px] max-w-8xl leading-[25px] transition-all">
-                <div class="grid grid-cols-3 gap-3">
-                    <div>JavaScript</div>
-                    <div>TypeScript</div>
-                    <div>Java</div>
-                    <div>Python</div>
-                    <div>C</div>
-                    <div>C++</div>
-                    <div>Node.js</div>
-                    <div>CSS</div>
-                    <div>TailwindCSS</div>
-                    <div>HTML</div>
-                    <div>React.js</div>
-                    <div>MySQL</div>
-                    <div>Oracle</div>
-                    <div>Agile</div>
-                    <div>Git</div>
-                    <div>RESTful API</div>
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-10 text-taupe text-[40px] max-w-8xl leading-[25px] transition-all"
+      >
+        <div class="grid grid-cols-3 gap-3">
+          <div>JavaScript</div>
+          <div>TypeScript</div>
+          <div>Java</div>
+          <div>Python</div>
+          <div>C</div>
+          <div>C++</div>
+          <div>Node.js</div>
+          <div>CSS</div>
+          <div>TailwindCSS</div>
+          <div>HTML</div>
+          <div>React.js</div>
+          <div>MySQL</div>
+          <div>Oracle</div>
+          <div>Agile</div>
+          <div>Git</div>
+          <div>RESTful API</div>
+        </div>
 
-                </div>
-
-           <br></br>
-           
+        <br></br>
       </motion.p>
-      
-     
-{/* 
+
+      {/* 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
@@ -79,4 +79,4 @@ const Skills = () => {
   );
 };
 
-export default SectionWrapper(Skills, 'skills');
+export default SectionWrapper(Skills, "skills");
