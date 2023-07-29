@@ -43,7 +43,7 @@ const Skills = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-10 text-taupe text-[40px] max-w-8xl leading-[20px] transition-all">
+        className="mt-10 text-taupe text-[40px] max-w-8xl leading-[25px] transition-all">
                 <div class="grid grid-cols-3 gap-3">
                     <div>JavaScript</div>
                     <div>TypeScript</div>
@@ -58,6 +58,9 @@ const Skills = () => {
                     <div>React.js</div>
                     <div>MySQL</div>
                     <div>Oracle</div>
+                    <div>Agile</div>
+                    <div>Git</div>
+                    <div>RESTful API</div>
 
                 </div>
 
