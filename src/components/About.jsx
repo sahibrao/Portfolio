@@ -36,11 +36,11 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          Line Number 1 <br></br>
-          Line Number 2 <br></br>
-          Line Number 3 <br></br>
-          Line Number 1 <br></br><br></br><br></br>
+        className="mt-4 text-taupe text-[24px] max-w-3xl leading-[40px]">
+          Born in Vancouver, BC. Grew up in Hong Kong and moved back to Canada to pursue my dream in Software Development. <br></br>
+          Currently studying Computer Science at The University of British Columbia, Vancouver.  <br></br>
+          In my spare time, I love attending hackathons, meeting other amazing developers, and at the gym, keeping myself fit enough to run away from any bug.  <br></br>
+           <br></br><br></br>
       </motion.p>
       
       {/* TODO: needs a download picture */}
@@ -62,7 +62,7 @@ const About = () => {
             transition duration-[0.2s] ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  'SahibRao_Resume.pdf', //paste the link to your resume here
                   '_blank'
                 )
               }
