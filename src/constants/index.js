@@ -54,11 +54,11 @@ const services = [
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Full-Stack Developer',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'QA Testing',
     icon: prototyping,
   },
 ];
