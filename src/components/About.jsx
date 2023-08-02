@@ -52,39 +52,6 @@ const About = () => {
       </motion.p>
 
       {/* TODO: needs a download picture */}
-      <button
-        className="live-demo flex justify-center sm:gap-4 
-            gap-3 sm:text-[30px] text-[45px] text-timberWolf 
-            font-bold font-beckman items-center py-5
-            whitespace-nowrap sm:w-[170px] sm:h-[70px] 
-            w-[250px] h-[120px]  bg-jetLight 
-            hover:bg-battleGray hover:text-eerieBlack 
-            transition duration-[0.2s] ease-in-out "
-        onClick={() =>
-          // window.open(
-          //   "resume", //paste the link to your resume here
-          //   "_blank"
-          // )
-          window.open(resume)
-        }
-        onMouseOver={() => {
-          document
-            .querySelector(".download-btn")
-            .setAttribute("src", downloadHover);
-        }}
-        onMouseOut={() => {
-          document.querySelector(".download-btn").setAttribute("src", download);
-        }}
-      >
-        Resume
-        {/* <a href={resume} target="_blank"></a> */}
-        {/* <img
-                src={download}
-                alt="download"
-                className="download-btn sm:w-[26px] sm:h-[26px] 
-                w-[23px] h-[23px] object-contain"
-              /> */}
-      </button>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
