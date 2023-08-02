@@ -52,6 +52,7 @@ import nyeusi from "./projects/nyeusi.png";
 import space from "./projects/space-hub.png";
 import coffee from "./projects/coffee.png";
 import accuracy from "./projects/accuracy.png";
+import valorant from "./projects/valorant.png";
 
 export {
   bwmap,
@@ -103,4 +104,5 @@ export {
   coffee,
   accuracy,
   linkedin,
+  valorant,
 };

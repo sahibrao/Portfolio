@@ -23,6 +23,7 @@ import {
   movie,
   nyeusi,
   space,
+  valorant,
   coverhunt,
   dcc,
   kelhel,
@@ -230,28 +231,28 @@ const projects = [
     repo: "https://github.com/sahibrao/AccuracyTracker",
     demo: "https://github.com/sahibrao/AccuracyTracker",
   },
-  // {
-  //   id: "project-4",
-  //   name: "Movie Metro",
-  //   description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: movie,
-  //   repo: "https://github.com/shaqdeff/Movie-Metro",
-  //   demo: "https://movie-metro.netlify.app/",
-  // },
+  {
+    id: "project-4",
+    name: "Valorant Tracker",
+    description: `This application allows users to navigate and edit data related to players of Valorant, a tactical FPS game.`,
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: valorant,
+    repo: "https://github.com/sahibrao/ValorantTracker",
+    demo: "https://github.com/sahibrao/ValorantTracker",
+  },
   // {
   //   id: "project-5",
   //   name: "Nyeusi Fest Site",
