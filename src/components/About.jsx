@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import resume from "/Users/sahibrao/Desktop/Projects/Portfolio-Template/src/components/SahibRao_Resume.pdf";
+// import resume from "/Users/sahibrao/Desktop/Projects/Portfolio-Template/src/components/SahibRao_Resume.pdf";
 import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
