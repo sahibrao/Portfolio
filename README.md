@@ -1,44 +1,9 @@
+![Screenshot 2023-08-08 at 10 17 39 PM](https://github.com/sahibrao/Portfolio/assets/57159146/6ea9bcca-5c35-403e-bdcd-e3b4db73dd4a)
 
-## Built With
+![Screenshot 2023-08-08 at 10 17 46 PM](https://github.com/sahibrao/Portfolio/assets/57159146/9164babe-3fe7-4b42-b42e-c30da4f6e889)
 
-- React.js
-- Three.js
-- Framer Motion
-- TailwindCSS
+![Screenshot 2023-08-08 at 10 17 54 PM](https://github.com/sahibrao/Portfolio/assets/57159146/b2e75385-2915-488f-8335-58246164800d)
 
+![Screenshot 2023-08-08 at 10 17 59 PM](https://github.com/sahibrao/Portfolio/assets/57159146/c008364b-19e7-4726-9a6a-1874956fbe83)
 
-## Install
-
-- After opening the files in Visual Studio Code, open the **VS Code** integrated terminal and run the following commands:
-
-```
-npm install
-```
-
-This will install all the packages and dependencies used in the project.
-
-## Usage
-
-- Run the following command to start a local server:
-
-```
-npm run dev
-```
-
-This will open up the project on a browser on `http://localhost:5173/`
-
-## Build
-
-- To create a production build:
-
-```
-npm run build
-```
-
-- To preview the site as it will appear once deployed:
-
-```
-npm run preview
-```
-
-
+![Screenshot 2023-08-08 at 10 18 06 PM](https://github.com/sahibrao/Portfolio/assets/57159146/503866aa-7eae-4f28-b614-81db538bd206)
